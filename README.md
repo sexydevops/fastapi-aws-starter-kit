@@ -12,6 +12,8 @@ This starter kit shows how to deploy a serverless REST API on AWS using:
 * FastAPI
 * Serverless framework
 
+This project was inspired by [Cox65](https://github.com/Cox65/fastapi-aws-starter-kit/) with some improvements.
+
 ### A. Installation
 All the following installation steps for the first time only
 
