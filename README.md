@@ -117,7 +117,7 @@ It should return:
 ### C. Deployment
 #### 1. Deploy locally
 ##### a. Pre-deployment
-- If you have a Serverless account
+- **If you have a Serverless account**
 
 Please use code on `main` branch which is default:
 ```
@@ -145,7 +145,7 @@ In this example:
 
 Note: Read more about Setup an Serverless account here [](https://www.devops.ci/setup-your-serverless-account/)
 
-- If you do not have Serverless account:
+- **If you do not have Serverless account**:
 ```bash
 git checkout without_serverless_account
 git checkout -b your_branch
