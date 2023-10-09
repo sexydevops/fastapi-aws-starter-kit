@@ -119,6 +119,12 @@ It should return:
 ##### a. Pre-deployment
 - If you have a Serverless account
 
+Please use code on `main` branch which is default:
+```
+git checkout main
+git checkout -b your_branch
+```
+And run the following command:
 ```bash
 npx serverless login
 ```
@@ -139,7 +145,12 @@ In this example:
 
 Note: Read more about Setup an Serverless account here [](https://www.devops.ci/setup-your-serverless-account/)
 
-- If you do not have Serverless account: go to the Deployment step
+- If you do not have Serverless account:
+```bash
+git checkout without_serverless_account
+git checkout -b your_branch
+```
+And then go to the Deployment step.
 
 ##### b. Deployment
 
