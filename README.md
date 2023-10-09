@@ -124,6 +124,12 @@ Please use code on `main` branch which is default:
 git checkout main
 git checkout -b your_branch
 ```
+
+After that, open the `serverless.yaml` file, change `org` and `app` to your org and app respectively!
+
+
+Note: Read more about Setup an Serverless account [here](https://www.devops.ci/setup-your-serverless-account/)
+
 And run the following command:
 ```bash
 npx serverless login
@@ -143,7 +149,6 @@ In this example:
 
 ![](https://i.imgur.com/BD6lkVA.png)
 
-Note: Read more about Setup an Serverless account [here](https://www.devops.ci/setup-your-serverless-account/)
 
 - **If you do not have Serverless account**:
 ```bash
