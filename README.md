@@ -7,6 +7,7 @@ Serverless REST API on AWS with FastAPI
 
 This starter kit shows how to deploy a serverless REST API on AWS using:
 * Python
+* Miniconda
 * Poetry
 * FastAPI
 * Serverless framework
@@ -15,7 +16,7 @@ This starter kit shows how to deploy a serverless REST API on AWS using:
 All the following installation steps for the first time only
 
 #### 1. Install Make
-- Make sure to setup `make` on your OS, if you are not able to setup `make`, please use command on the `Makefile`
+- Make sure to setup `make` on your OS, if you are not able to setup `make`, please use commands on the `Makefile`
 
 #### 2. Install Nodejs and projects node_modules
 - If you havent install Nodejs before please install it.
@@ -139,6 +140,12 @@ Note: Read more about Setup an Serverless account here [](https://www.devops.ci/
 - If you do not have Serverless account: go to the Deployment step
 
 ##### b. Deployment
+
+Note: If you havent activated your `conda` environment, let's activate it:
+```bash
+conda activate serverless_env
+```
+
 Run the following command to deploy
 ```bash
 make deploy
@@ -155,6 +162,11 @@ Here `your-serverless-endpoint` is the endpoint that you can get from the **Depl
 ![](https://i.imgur.com/R366e1s.png)
 
 ### D. Remove app:
+Note: If you havent activated your `conda` environment, let's activate it:
+```bash
+conda activate serverless_env
+```
+
 If you want to remove your app, run the following command:
 ```
 npx sls remove
