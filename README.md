@@ -143,7 +143,7 @@ In this example:
 
 ![](https://i.imgur.com/BD6lkVA.png)
 
-Note: Read more about Setup an Serverless account here [](https://www.devops.ci/setup-your-serverless-account/)
+Note: Read more about Setup an Serverless account [here](https://www.devops.ci/setup-your-serverless-account/)
 
 - **If you do not have Serverless account**:
 ```bash
